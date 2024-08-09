@@ -1,0 +1,76 @@
+* {
+    font-family: "Lilita One", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background: #000000;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height:100vh;
+}
+
+img {
+    width: 583px;
+    height: 374px;
+    margin-top: 156px;
+    margin-left: 20px;
+}
+
+h1 {
+    margin-bottom: 26px;
+    margin-top:126px;
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 38px;
+    font-style: normal;
+    text-align: center;
+}
+
+input {
+    background: hsl(255, 15%, 18%);
+    border:1px solid rgba(8, 158, 185,0,3);
+    width: 342px;
+    height:74px;
+    border-radius:14px;
+    font-size: 40px;
+    font-weight:500;
+    line-height: 47px;
+    color:#ffffff;
+    padding-left:20px ;
+    opacity:0.7;
+}
+
+
+.input-entre{ 
+    margin-right: 62px;
+}
+
+
+button {
+    width:342px;
+    height:72px;
+    margin-top: 80px;
+    border-radius: 10px;
+    background: #AEC346;
+    box-shadow: #24290d;
+    color:#ffffff;
+    font-size: 36px;
+    font-weight:700;
+    border:none;
+    cursor:pointer;
+}
+
+button:hover {
+    opacity:0,9;
+}
+
+button:active {
+    opacity:0.8;
+}
